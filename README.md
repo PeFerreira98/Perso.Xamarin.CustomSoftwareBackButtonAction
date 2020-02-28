@@ -1,6 +1,7 @@
 # Xamarin.CustomSoftwareBackButtonAction
 
 NuGet Package versions:
+```xml
     <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
@@ -11,3 +12,4 @@ NuGet Package versions:
     <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
+```
