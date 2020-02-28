@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<overrideback:CustomContentPage
+    x:Class="OverrideBack.Page1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:overrideback="clr-namespace:OverrideBack"
+    Title="Page 2"
+    BackgroundColor="#00bfff"
+    EnableBackButtonOverride="False"
+    mc:Ignorable="d">
+    <StackLayout
+        Padding="20,10,20,10"
+        HorizontalOptions="Center"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            Text="Ok, this is just a normal Page! Click next Page to see the Navigation Bar Back button click overridden behavior..."
+            TextColor="White" />
+
+        <Button
+            BackgroundColor="White"
+            Clicked="OpenPageButton_OnClicked"
+            FontSize="15"
+            Text="Open Next Page" />
+
+    </StackLayout>
+</overrideback:CustomContentPage>

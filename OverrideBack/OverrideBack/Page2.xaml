@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<overrideback:CustomContentPage
+    x:Class="OverrideBack.Page2"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:overrideback="clr-namespace:OverrideBack"
+    Title="Page 3"
+    BackgroundColor="#00bfff"
+    EnableBackButtonOverride="True"
+    mc:Ignorable="d">
+
+
+    <StackLayout
+        Padding="20,10,20,10"
+        HorizontalOptions="Center"
+        Spacing="20"
+        VerticalOptions="Center">
+
+        <Label
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            Text="This is the cool page, which has the Navigation Bar Back button click overriden. How go ahead and click that Back button! ;)"
+            TextColor="White" />
+
+    </StackLayout>
+</overrideback:CustomContentPage>
